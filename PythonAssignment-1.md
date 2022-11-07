@@ -67,9 +67,10 @@ Q15. What is difference between / and // operators?
 / means divion with give the full value whereas // gives on the Quoteint.
 
 Q16. Write a code that gives following as an output.
+iNeuroniNeuroniNeuroniNeuron
 ```
 print('iNeuron'*3)
-iNeuroniNeuroniNeuroniNeuron
+
 ```
 
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
@@ -117,10 +118,22 @@ else:
 Q23. Write a code that displays the sum of all the even numbers from the given list.
 ```
 numbers = [12, 75, 150, 180, 145, 525, 50]
+total =0
+for num in numbers:
+    if(num%2==0):
+        total+=num
+    else:
+        total+=0
+print(total)
 ```
 
 
 Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+
+```
+var1,var2,var3=input("Enter three numbers separated by ,: ").split(',')
+print(max(int(var1),int(var2),int(var3)))
+```
 
 Q25. Write a program to display only those numbers from a list that satisfy the following conditions
 
@@ -130,5 +143,13 @@ Q25. Write a program to display only those numbers from a list that satisfy the 
 
 - If the number is greater than 500, then stop the loop
 ```
+
 numbers = [12, 75, 150, 180, 145, 525, 50]
+for n in numbers:
+    if n > 500:
+        exit()
+    elif n%5==0:
+        print(n)
+    else:
+        continue
 ```
