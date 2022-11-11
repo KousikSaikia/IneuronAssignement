@@ -69,7 +69,7 @@ Q15. What is difference between / and // operators?
 Q16. Write a code that gives following as an output.
 iNeuroniNeuroniNeuroniNeuron
 ```
-print('iNeuron'*3)
+print('iNeuron'*4)
 
 ```
 
