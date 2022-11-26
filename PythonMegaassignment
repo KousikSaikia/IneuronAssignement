@@ -148,35 +148,64 @@ print(set1 & set2)
 
 Q55. What is dictionary in Python?
 
-
+Dictionaries are used to store data values in key:value pairs. A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
 
 Q56. How is dictionary different from all other data structures.
 
+It stores data values in key:value format.
+
 Q57. How can we delare a dictionary in Python?
+
+using curly brackets {}.
 
 Q58. What will the output of the following?
 
 var = {}
 print(type(var))
+output - <class 'dict'>
 Q59. How can we add an element in a dictionary?
+
+dic1={}
+dic1['name'] = 'Kousik'
 
 Q60. Create a dictionary and access all the values in that dictionary.
 
+var1 ={'Sachin': 10, 'MSD': 7, 'Kohli': 18, 'Rohit': 45}
+print(var1.values())
+
 Q61. Create a nested dictionary and access all the element in the inner dictionary.
+
+var1 ={'Sachin': 10, 'captain':{'MSD': 7, 'Kohli': 18} , 'Rohit': 45}
+print(var1['captain'].values())
+
 
 Q62. What is the use of get() function?
 
+he get () method returns the value of the item with the specified key.
+
 Q63. What is the use of items() function?
+
+items() method is used to return the list with all dictionary keys with values. 
 
 Q64. What is the use of pop() function?
 
+It removes the element of the key for with pop is configured.
+
 Q65. What is the use of popitems() function?
+
+he popitem() method removes the item that was last inserted into the dictionary. 
 
 Q66. What is the use of keys() function?
 
+Give the list of all they keys in the dictionary.
+
 Q67. What is the use of values() function?
 
+Gives the list of all the values in the dictionary.
+
 Q68. What are loops in Python?
+
+
 
 Q69. How many type of loop are there in Python?
 
