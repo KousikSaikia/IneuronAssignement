@@ -132,11 +132,23 @@ fronzen sets are immutable. It accepts only itterable object.
 
 Q53. What is union() in sets? Explain via code.
 
+Union gives the all elements from both sets (no duplicate value)
 
+set1 = {1,2,3,4,5,6}
+set2={4,5,6,7,8,9}
+print(set1 | set2)
 
 Q54. What is intersection() in sets? Explain via code.
 
-Q55. What is dictionary ibn Python?
+intersection gives only the common elements from both the sets
+
+set1 = {1,2,3,4,5,6}
+set2={4,5,6,7,8,9}
+print(set1 & set2)
+
+Q55. What is dictionary in Python?
+
+
 
 Q56. How is dictionary different from all other data structures.
 
